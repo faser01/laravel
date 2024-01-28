@@ -9,6 +9,7 @@ class HomeController extends Controller
     public function index()
     {
         $user = null; // объект пользователя
+       // $user = (object) [ 'name' => 'Иван'];
 
         $news = [
             (object) ['title' => 'Новость 1'],
